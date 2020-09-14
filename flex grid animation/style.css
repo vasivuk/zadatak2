@@ -1,0 +1,48 @@
+.flex-container {
+    display: flex;
+    
+}
+
+.flex-container div {
+    border: 1px gray solid;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(189, 219, 214);
+}
+
+.leftBoxF {
+    flex: 1;
+    text-align: left;
+    
+}
+
+.middleBoxF {
+    flex: 1;
+    text-align: center;
+}
+
+.rightBoxF {
+    flex: 1;
+    text-align: right;
+}
+
+img {
+    width: 85%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+}
+
+.grid-container div{
+    border: 1px gray solid;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(189, 219, 214);
+}
+
+p {
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+}
